@@ -1,0 +1,47 @@
+.navbar {
+  opacity: 0.9;
+  background-color: #d1e3ff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#about .container {
+  margin-top: -100px;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+#projects .container {
+  margin-top: -100px;
+}
+
+#contact .container {
+  margin-top: -50px;
+}
+
+footer {
+  margin-top: -10px;
+}
+
+section {
+  padding-top: 12rem;
+}
+
+.sosmed {
+  margin-top: -12px;
+}
+
+.sosmed a i {
+  font-size: 20px;
+}
+
+#projects img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 5px 10px 8px #888888;
+}

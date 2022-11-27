@@ -1,0 +1,116 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  margin-bottom: 1000px;
+}
+
+/* Navbar */
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  opacity: 0.8;
+}
+
+.collapse a {
+  color: #012970;
+}
+
+.contact a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #012970;
+  border-radius: 4px;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+/* Navbar End */
+
+/* Hero Selection */
+
+.hero {
+  width: 100%;
+  height: 115vh;
+  background: url(/asset/img/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero h2 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #4154f1;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px rgba(65, 84, 241, 0.8);
+}
+
+.btn-know:hover {
+  transition: 0.5s;
+  color: white;
+  opacity: 0.8;
+}
+
+/* Hero Selection End */
+
+/* About */
+.about {
+  margin-top: 5rem;
+}
+
+.about-content {
+  padding: 30px;
+  background-color: #f6f9ff;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700px;
+  color: #012970;
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about-container a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #4154f1;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px rgba(65, 84, 241, 0.8);
+}
+
+.btn-know:hover {
+  transition: 0.5s;
+  color: white;
+  opacity: 0.8;
+}
+
+/* About End */
